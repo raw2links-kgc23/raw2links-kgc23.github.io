@@ -1,7 +1,7 @@
 theme: jekyll-theme-cayman
 title: "Predicting links in a Knowledge Graph: from raw data to insights"
 description: "KGC Master class"
-markdown: kramdown
+markdown: GFM
 url: "https://raw2links-kgc23.github.io"
 plugins:
   - jemoji
