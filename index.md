@@ -1,9 +1,13 @@
 # Predicting links in a Knowledge Graph: from raw data to insights
 
-## Sub header
+## Resources
 
-First level header
-==================
+:file_folder: **[Slides [PDF]](https://raw2links-kgc23.github.io/KGC_tutorial.pdf)**
+
+
+## Reference
+
+Please cite as
 
 ```
 code
