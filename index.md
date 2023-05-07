@@ -8,7 +8,9 @@ Here are the main pointers:
 
 :file_folder: **[Dataset [Zip]](https://raw2links-kgc23.github.io/dataset.zip)**
 
-:globe_with_meridians: **[Code and additional files](https://github.com/raw2links-kgc23/raw2links-kgc23.github.io)**
+:globe_with_meridians: **[Code and additional files on Github](https://github.com/raw2links-kgc23/raw2links-kgc23.github.io)**
+
+:globe_with_meridians: **[Homepage of KGC 2023](https://www.airmeet.com/e/0c051720-4a51-11ed-b7ce-81fe6535fd7a#schedule)**
 
 ## Speakers
 
@@ -19,7 +21,7 @@ The tutorial has been prepared, and will be presented during KGC, by:
 
 ## Reference
 
-Please cite as
+Please cite [from Zenodo](https://doi.org/10.5281/zenodo.7905337) as:
 
 ```
 @misc{gueret_christophe_2023_7905337,
