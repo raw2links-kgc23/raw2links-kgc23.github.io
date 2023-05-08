@@ -1,0 +1,24 @@
+SELECT DISTINCT ?s ?p ?o
+{
+    {
+        ?s ?p ?o
+        VALUES ?p {Tutorial:model:takes_place_in Tutorial:model:plays_for}
+    }
+    UNION {
+        BIND (Tutorial:model:match_team AS ?p)
+        ?s ?r ?o
+        VALUES ?r {Tutorial:model:away_team Tutorial:model:home_team}
+    }
+    UNION {
+        BIND (Tutorial:model:rating AS ?p)
+        ?s ?p ?r
+        BIND (URI(CONCAT("rating_",STR(?r))) AS ?o)
+    }
+    UNION {
+        ?player Tutorial:model:rating ?r
+        BIND (URI(CONCAT("rating_",STR(?r))) AS ?s)
+        BIND (Tutorial:model:rating_bucket AS ?p)
+        BIND ((INTEGER(FLOAT(?r) / 10.0)) AS ?r_bucket)
+        BIND (URI(CONCAT("bucket_",STR(?r_bucket))) AS ?o)
+    }
+}
