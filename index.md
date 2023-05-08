@@ -6,7 +6,7 @@ Here are the main pointers:
 
 :file_folder: **[Slides [PDF]](https://raw2links-kgc23.github.io/KGC_tutorial.pdf)**
 
-:file_folder: **[Dataset [Zip]](https://raw2links-kgc23.github.io/dataset.zip)**
+:file_folder: **[Dataset [Zip]](https://github.com/raw2links-kgc23/raw2links-kgc23.github.io/raw/main/dataset.zip)**
 
 :globe_with_meridians: **[Code and additional files on Github](https://github.com/raw2links-kgc23/raw2links-kgc23.github.io)**
 
